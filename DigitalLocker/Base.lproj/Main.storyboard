@@ -321,6 +321,9 @@
                                     <action selector="cancel" destination="bPC-xk-M8t" eventType="touchUpInside" id="wv1-Ze-OFt"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="fsJ-Kg-6M7">
+                                <rect key="frame" x="177" y="323" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.91256016492843628" green="0.6100042462348938" blue="0.30309653282165527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -329,6 +332,7 @@
                             <constraint firstItem="vUi-Mr-DBJ" firstAttribute="top" secondItem="zb0-H8-4HA" secondAttribute="bottom" constant="10" id="7KM-RY-Ari"/>
                             <constraint firstItem="zb0-H8-4HA" firstAttribute="leading" secondItem="KtB-Mm-DeD" secondAttribute="leading" constant="10" id="7Td-Zc-nL9"/>
                             <constraint firstItem="JLy-kx-wPw" firstAttribute="top" secondItem="vUi-Mr-DBJ" secondAttribute="bottom" constant="10" id="9qM-Xd-NBE"/>
+                            <constraint firstItem="fsJ-Kg-6M7" firstAttribute="centerX" secondItem="FVj-aU-emm" secondAttribute="centerX" id="CO2-xb-cbG"/>
                             <constraint firstItem="4yb-L3-LMB" firstAttribute="top" secondItem="8Xd-7C-Y2I" secondAttribute="bottom" constant="10" id="Lpj-JJ-RdR"/>
                             <constraint firstItem="JLy-kx-wPw" firstAttribute="leading" secondItem="KtB-Mm-DeD" secondAttribute="leading" constant="10" id="Rxc-YX-YD2"/>
                             <constraint firstItem="8Xd-7C-Y2I" firstAttribute="leading" secondItem="KtB-Mm-DeD" secondAttribute="leading" constant="10" id="Spd-vs-v5N"/>
@@ -337,6 +341,7 @@
                             <constraint firstItem="4yb-L3-LMB" firstAttribute="leading" secondItem="KtB-Mm-DeD" secondAttribute="leading" constant="10" id="YKU-xf-ddZ"/>
                             <constraint firstItem="KtB-Mm-DeD" firstAttribute="trailing" secondItem="zb0-H8-4HA" secondAttribute="trailing" constant="10" id="Ydz-Re-84F"/>
                             <constraint firstItem="KtB-Mm-DeD" firstAttribute="trailing" secondItem="8Xd-7C-Y2I" secondAttribute="trailing" constant="10" id="bI8-8N-vWL"/>
+                            <constraint firstItem="fsJ-Kg-6M7" firstAttribute="centerY" secondItem="FVj-aU-emm" secondAttribute="centerY" id="cc0-fB-NzV"/>
                             <constraint firstItem="vUi-Mr-DBJ" firstAttribute="leading" secondItem="KtB-Mm-DeD" secondAttribute="leading" constant="10" id="gQO-To-uX1"/>
                             <constraint firstItem="KtB-Mm-DeD" firstAttribute="trailing" secondItem="vUi-Mr-DBJ" secondAttribute="trailing" constant="10" id="hjP-gm-A6c"/>
                             <constraint firstItem="8Xd-7C-Y2I" firstAttribute="top" secondItem="KtB-Mm-DeD" secondAttribute="top" constant="10" id="jj2-zq-a1n"/>
@@ -348,6 +353,7 @@
                         <viewLayoutGuide key="safeArea" id="KtB-Mm-DeD"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="fsJ-Kg-6M7" id="omp-CR-MC2"/>
                         <outlet property="userCnfPasswordTextField" destination="JLy-kx-wPw" id="bKC-GT-WBW"/>
                         <outlet property="userEmailTextField" destination="zb0-H8-4HA" id="fAo-c3-Nin"/>
                         <outlet property="userNameTextField" destination="4yb-L3-LMB" id="9kz-Ad-n2x"/>
