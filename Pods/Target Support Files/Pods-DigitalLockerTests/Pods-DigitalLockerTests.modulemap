@@ -1,0 +1,6 @@
+framework module Pods_DigitalLockerTests {
+  umbrella header "Pods-DigitalLockerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

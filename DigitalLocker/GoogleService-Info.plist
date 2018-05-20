@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>634355352951-9fp4reku2i7f9bmn05ofk5vmtsehlagk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.634355352951-9fp4reku2i7f9bmn05ofk5vmtsehlagk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBYfFN_F9DQaqvTojwOMnZWP4hE-GNjCWE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>634355352951</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Ginni.DigitalLocker</string>
+	<key>PROJECT_ID</key>
+	<string>digitallocker-25836</string>
+	<key>STORAGE_BUCKET</key>
+	<string>digitallocker-25836.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:634355352951:ios:7eb4210ac8694cde</string>
+	<key>DATABASE_URL</key>
+	<string>https://digitallocker-25836.firebaseio.com</string>
+</dict>
+</plist>
